@@ -1,7 +1,7 @@
 .odd{
     background-color: pink;
-    font-family: 'Verdana',
-    "DejaVu Sans",
+    font-family: Verdana,
+    'DejaVu Sans',
     sans-serif;
 }
 
@@ -16,6 +16,6 @@
     font-weight: bold;
 }
 
-.odd.cooler{
+.odd.cooler {
     font-size: 24px;
 }
