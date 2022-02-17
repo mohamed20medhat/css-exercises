@@ -3,6 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  /* using justify-content and align-items */
+  /* justify-content: center;
+  align-items: center; */
+
 }
 
 .box {
@@ -12,4 +17,6 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  /* using margin auto on the item  */
+  margin: auto;
 }
