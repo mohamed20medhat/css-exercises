@@ -1,7 +1,13 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  /* use this or use margin auto in the logo  */
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
+
 
 .logo {
   font-size: 48px;
@@ -9,12 +15,19 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* margin: auto; */
 }
 
 ul {
+  display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap:8px;
 }
+
 
 a {
   font-size: 22px;
@@ -22,4 +35,6 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  /* i can do this instead of putting gap in the ul  */
+  /* margin: 5px; */
 }
