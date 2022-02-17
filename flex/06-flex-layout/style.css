@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -25,3 +28,41 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;  
+  padding: 16px;
+}
+
+.footer {
+  /* we don't need to put margin-top. cause we added display flex to the body. and made the content able to resize it self using fle:auto. and didn't add anything to make it resizable to the footer */
+  /* margin-top: auto; */
+  background-color: #ddd;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column  wrap;
+  flex:auto;
+  gap:10px;
+}
+
+
+
+ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap:16px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(49, 42, 114);
+}
+
+
